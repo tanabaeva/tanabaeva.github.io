@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display&family=Playfair+Display+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    color: white;
+    font-family: Playfair Display;
+    list-style: none;
+    padding: 0px 5px 0px;
+}
+.li{
+    font-family: Clicker Script;
+    font-size: 25px;
+    font-weight: 50;
+    line-height: 35px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    border-bottom: 2px solid rgb(177, 10, 177);
+    padding: 10px 0px 0px 0px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block{
+    display: flex;
+}
+.block li{
+    padding: 10px;
+}
+header{
+    background: url(coffee_image.png);
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block{
+    display: flex;
+}
+.image_c{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.block_1{
+    width: 100px;
+}
+.button{
+    font-family: Playfair Display;
+    color: white;
+    background-color: #603809;
+    width: 100px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+}
+.header_card{
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.text{
+    font-family: Playfair Display;
+    color: white;
+    font-size: 24px;
+    font-weight: 100;  
+}
+.text2{
+    font-family: 'Clicker Script', cursive;
+    color: white;
+    font-size: 200px;
+    font-weight: 420; 
+}
+.text3{
+    font-family: Playfair Display;
+    color: white;
+    font-size: 20px;
+    font-weight: 400; 
+}
+.button3{
+    font-family: Playfair Display;
+    color: white;
+    background-color: #603809;
+    width: 250px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    margin-left: 50px;
+}
+ 
+.text4{
+    font-family: Playfair Display;
+    color: #603809;
+    font-size: 54px;   
+    margin-top: 100px;
+}
+.block34{
+    display: flex;
+    width: 90%; 
+    justify-content: space-around;
+}
+.div_lorem{
+    font-family: Playfair Display;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
+}
+.btn_fi{
+    font-family: Playfair Display;
+    color: white;
+    background-color: #603809;
+    width: 100px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    margin-left: 1px;
+    margin-top: 20px;
+}
+.div_h1{
+    font-family: Playfair Display;
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+.div_header{
+    font-family: Playfair Display;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.div_name_coffee{
+    font-family: Playfair Display;
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.div_name_e{
+    font-family: Playfair Display;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.div_price{
+    font-family: Playfair Display;
+    color: #603809;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.add_btn{
+    font-family: Playfair Display;
+    color: black;
+    background-color: #603809;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 24px;
+    margin-top: 20px;
+    transform: translateY(20px);
+}
+.cont_div{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.div_center{
+    text-align: center;
+}
+.card_section_1{
+    background: #FFF9F1;
+    border: 1px solid #F9C06A6B;
+}
+.div_h2{
+    font-family: Playfair Display;
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+}
+.div_header2{
+    font-family: Playfair Display;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.div_name_coffee2{
+    font-family: Playfair Display;
+    color: #603809;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+}
+.div_name_e2{
+    font-family: Playfair Display;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.cont_div2{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.div_center2{
+    text-align: center;
+}
+.card_section_2{
+    background: #FFF9F1;
+    border: 1px solid #F9C06A6B;
+    padding: 45px;
+    margin-left: 20px;
+}
+.img_sec_img2{
+    margin: auto ;
+}
+.div_header22{
+    font-family: Playfair Display;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+.div_header23{
+    font-family: Playfair Display;
+    color: #603809;
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+.fff_fff{
+    font-family: Playfair Display;
+    color: white;
+    background-color: #603809;
+    width: 100px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+.imgimg{
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.imgimg2{
+    width: 300px;
+    height: 467px;
+    margin-left: 990px;
+    margin-top: -550px;
+}
+.div_header11{
+    font-family: Playfair Display;
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: -350px;
+}
+.div_header12{
+    font-family: Playfair Display;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.btn_fff{
+    font-family: Playfair Display;
+    color: white;
+    background-color: #603809;
+    width: 100px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+@media all and (min-width:300px) and (max-width:500px) {
+    header{
+        width: 500px;
+        height: 700px;
+        background-position: center;
+        background-size: cover;
+    }
+    ul{
+        flex-direction: column;
+    }  
+    .block{
+        font-size: 10px;
+        text-align: center;
+    }
+    .button{
+        font-size: 15px;
+    }
+     
+    .div_lorem{
+        font-size: 14px;
+        text-align: center;
+    }
+    .header_card{
+        width: 300px;
+    }
+     .text{
+        font-size: 12px;
+     }
+     .text2{
+        font-size: 60px;
+     }
+     .text3{
+        font-size: 12px;
+     }
+     .button3{
+        width: 150px;
+        height: 30px;
+        margin-top: 20px;
+     }
+     .image_cc{
+        width: 300px;
+        margin-top: 90px;
+     }
+     .text4{
+        font-size: 24px;
+     }
+     .div_lorem{
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+     }
+     .div_h1{
+        font-size: 24px;
+     }
+     .cont_div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .div_h2{
+        font-size: 24px;
+     }
+     .cont_div2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .imgimg{
+        width: 500px;
+     }
+     .imgimg2{
+        width: 150px;
+        height: 250px;
+        margin: 0;
+        margin-top: -400px;
+     }
+     .div_header11{
+        font-size: 12px;
+     }
+     .div_header22{
+        margin-left: 10px;
+     }
+}
